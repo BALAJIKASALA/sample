@@ -1,0 +1,23 @@
+<sly data-sly-test="${WCMMode.edit}">
+    hi this is edit </sly>
+<article class="post-1 line">
+                  <!-- image -->                 
+                  <div class="s-12 l-6 post-image">                   
+                     <a href="post-1.html">
+                     <img src="${properties.ImagePath}" alt="Fashion 1">
+                     </a>                
+                  </div>
+                  <!-- text -->                 
+                  <div class="s-12 l-5 post-text">
+                     <a href="post-1.html">
+                         <h2>${properties.h2text}</h2>
+                     </a>
+                     <p>${properties.para}             
+                     </p>
+                  </div>
+                  <!-- date -->                 
+                  <div class="s-12 l-1 post-date">
+                     <p class="date">${properties.dayofmonth}</p>
+                     <p class="month">${properties.month}</p>
+                  </div>
+               </article>
